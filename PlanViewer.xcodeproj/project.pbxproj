@@ -22,6 +22,7 @@
 		1F11869E197626EB007451B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F11867D197626EB007451B3 /* UIKit.framework */; };
 		1F1186A6197626EB007451B3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F1186A4197626EB007451B3 /* InfoPlist.strings */; };
 		1F1186A8197626EB007451B3 /* PlanViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1186A7197626EB007451B3 /* PlanViewerTests.m */; };
+		1F1186B419762A78007451B3 /* JAPanoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1186B319762A78007451B3 /* JAPanoView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		1F1186A3197626EB007451B3 /* PlanViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlanViewerTests-Info.plist"; sourceTree = "<group>"; };
 		1F1186A5197626EB007451B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F1186A7197626EB007451B3 /* PlanViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanViewerTests.m; sourceTree = "<group>"; };
+		1F1186B219762A78007451B3 /* JAPanoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAPanoView.h; sourceTree = "<group>"; };
+		1F1186B319762A78007451B3 /* JAPanoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAPanoView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 		1F11867F197626EB007451B3 /* PlanViewer */ = {
 			isa = PBXGroup;
 			children = (
+				1F1186B1197629A2007451B3 /* PanoViewer */,
 				1F118688197626EB007451B3 /* AppDelegate.h */,
 				1F118689197626EB007451B3 /* AppDelegate.m */,
 				1F11868B197626EB007451B3 /* Main_iPhone.storyboard */,
@@ -153,6 +157,15 @@
 				1F1186A4197626EB007451B3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F1186B1197629A2007451B3 /* PanoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1F1186B219762A78007451B3 /* JAPanoView.h */,
+				1F1186B319762A78007451B3 /* JAPanoView.m */,
+			);
+			name = PanoViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +269,7 @@
 				1F118693197626EB007451B3 /* ViewController.m in Sources */,
 				1F11868A197626EB007451B3 /* AppDelegate.m in Sources */,
 				1F118686197626EB007451B3 /* main.m in Sources */,
+				1F1186B419762A78007451B3 /* JAPanoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0D7AA8ED-540A-4F5B-965E-CAE98B806DB2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PlanViewer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D404FADA-9647-4695-B1FA-71156E33A94B</key>
+		<string>https://github.com/nisargmehta/PlanViewer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PlanViewer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D404FADA-9647-4695-B1FA-71156E33A94B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nisargmehta/PlanViewer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D404FADA-9647-4695-B1FA-71156E33A94B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D404FADA-9647-4695-B1FA-71156E33A94B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PlanViewer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
